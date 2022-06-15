@@ -2,17 +2,18 @@
 //  ViewController.swift
 //  Instagram
 //
-//  Created by Babak Kiaie on 6/10/22.
+//  Created by Babak Kiaie on 6/9/22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
+        title = "Instagram"
+        view.backgroundColor = .systemBackground    }
 
 
 }

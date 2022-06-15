@@ -2,9 +2,12 @@
 //  AppDelegate.swift
 //  Instagram
 //
-//  Created by Babak Kiaie on 6/10/22.
+//  Created by Babak Kiaie on 6/9/22.
 //
 
+import FirebaseFirestore
+import FirebaseAuth
+import FirebaseCore
 import UIKit
 
 @main
@@ -14,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
         return true
     }
 
